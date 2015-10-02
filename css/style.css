@@ -18,6 +18,21 @@ p {
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+    font-family: "A028";
+    font-size: 200%;
+}
+
+
 .footer-quote {
+    background-color: grey;
+    font-family:"A028";
+    font-size: 120;
     color: orange;
+    position:fixed;
+    left: 0;
+    right:0;
+    bottom:0;
+    margin:auto;
 }
