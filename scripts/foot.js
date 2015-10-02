@@ -17,6 +17,7 @@ var quotes = [
     "What do you call the mouse shadow on the second moon?",
     "Never one drop of rain on Arrakis...",
     "The spice must flow.",
+    "Usul has called a big one.",
     "Again, it is the legend!",
     ]
 
