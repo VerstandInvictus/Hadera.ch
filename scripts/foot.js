@@ -17,6 +17,7 @@ var quotes = [
     "What do you call the mouse shadow on the second moon?",
     "Never one drop of rain on Arrakis...",
     "The spice must flow.",
+    "Again, it is the legend!",
     ]
 
 // Returns a random integer between min (included) and max (excluded)
