@@ -1,0 +1,23 @@
+@font-face {
+    font-family: A028;
+    src: url("A028-Med.ttf") format('truetype');
+}
+
+body {
+    background-color: #454545;
+}
+
+h1 {
+    color: #CC9900;
+    text-align: center;
+    font-family: "A028";
+    font-size: 400%
+}
+
+p {
+    text-align: center;
+}
+
+.footer-quote {
+    color: orange;
+}

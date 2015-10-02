@@ -21,5 +21,5 @@ function paulquote() {
 
 
 $(document).ready(function(){
-    $("div.footer-quote").html(paulquote())
+    $("div.footer-quote").html("<p>" + paulquote() + " </p>")
     })
