@@ -4,35 +4,64 @@
 }
 
 body {
-    background-color: #454545;
+    background-image: url("backgroundheader.jpg");
+    background-size: cover;
+}
+
+h1, h2, h3, p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1 {
     color: #CC9900;
     text-align: center;
     font-family: "A028";
-    font-size: 400%
+    font-size: 4vw
+}
+
+h2 {
+    color: #CC9900;
+    text-align: center;
+    font-family: "A028";
+    font-size: 2.5vw
 }
 
 p {
     text-align: center;
 }
 
-h2 {
+h3 {
     text-align: center;
     font-family: "A028";
-    font-size: 200%;
+    font-size: 2vw;
 }
 
+#wrapper{
+    height: 100vh;
+    display: flex;
+    max-width: 960px;
+    margin: 5%;
+    flex-direction: column;
+    font-size: medium;
+}
+
+header{
+    height: 30%;
+}
+
+footer {
+    background-color: grey;
+    height: 10%;
+}
+
+body-text {
+    flex: 1;
+    min-height: 45%;
+}
 
 .footer-quote {
-    background-color: grey;
     font-family:"A028";
     font-size: 120;
     color: orange;
-    position:fixed;
-    left: 0;
-    right:0;
-    bottom:0;
-    margin:auto;
 }
