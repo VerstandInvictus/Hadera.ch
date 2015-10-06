@@ -63,7 +63,6 @@ p {
 }
 
 .wrapper {
-    @include content-padding;
     background: rgba(34,34,34,0.75);
     z-index: 100; 
 }
@@ -80,25 +79,22 @@ p {
 
 .wrapper-bg {
     background-image: url("background.jpg");
-    background-size: 100vw;
-    background-position: center +25%;
-    @include content-padding;
     position: absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
     z-index: 99;
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
     overflow: hidden;
 } 
 
 body {
+    margin: 0;
     background-image: url("background.jpg");
     background-repeat: no-repeat;
-    background-position: cover;
-    background-size: 100%;
+    background-size: 100vw 100vh;
 }
 
 footer {
