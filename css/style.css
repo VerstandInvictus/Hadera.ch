@@ -1,67 +1,99 @@
 @font-face {
-    font-family: A028;
-    src: url("A028-Med.ttf") format('truetype');
-}
-
-body {
-    background-image: url("backgroundheader.jpg");
-    background-size: cover;
-}
-
-h1, h2, h3, p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
+  font-family: A028;
+  src: url("A028-Med.ttf") format("truetype"); }
 h1 {
-    color: #CC9900;
-    text-align: center;
-    font-family: "A028";
-    font-size: 4vw
-}
+  color: #CC9900;
+  text-align: center;
+  font-family: "A028";
+  font-size: 4em;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 h2 {
-    color: #CC9900;
-    text-align: center;
-    font-family: "A028";
-    font-size: 2.5vw
-}
-
-p {
-    text-align: center;
-}
+  color: #CC9900;
+  text-align: center;
+  font-family: "A028";
+  font-size: 2.5em;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 h3 {
-    text-align: center;
-    font-family: "A028";
-    font-size: 2vw;
-}
+  text-align: center;
+  font-family: "A028";
+  font-size: 2em;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
-#wrapper{
-    height: 100vh;
-    display: flex;
-    max-width: 960px;
-    margin: 5%;
-    flex-direction: column;
-    font-size: medium;
-}
+p {
+  text-align: center;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
-header{
-    height: 30%;
-}
+.wrapper {
+  max-width: 960px;
+  margin: 3%;
+  margin-top: 5%;
+  border-radius: 10px;
+  background: rgba(34, 34, 34, 0.75);
+  z-index: 100; }
+
+.wrapper-container {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden; }
+
+.wrapper-bg {
+  background-image: url("background.jpg");
+  background-size: 100vw;
+  background-position: center +25%;
+  max-width: 960px;
+  margin: 3%;
+  margin-top: 5%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  overflow: hidden; }
+
+body {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: 100%; }
 
 footer {
-    background-color: grey;
-    height: 10%;
-}
-
-body-text {
-    flex: 1;
-    min-height: 45%;
-}
+  height: 5vw; }
 
 .footer-quote {
-    font-family:"A028";
-    font-size: 120;
-    color: orange;
-}
+  font-family: "A028";
+  font-size: 1em;
+  color: orange; }
+
+.body-text {
+  flex: 6; }
+
+.bottom-menu {
+  font-family: "A028";
+  font-size: 0.8em;
+  text-align: center; }
+  .bottom-menu a {
+    color: #333;
+    text-decoration: none; }
+    .bottom-menu a:visited {
+      color: #333; }
+    .bottom-menu a:hover {
+      color: #333; }
+    .bottom-menu a:active {
+      color: #333; }
+
+/*# sourceMappingURL=style.css.map */

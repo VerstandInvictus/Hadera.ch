@@ -1,0 +1,123 @@
+@font-face {
+    font-family: A028;
+    src: url("A028-Med.ttf") format('truetype');
+}
+
+$bgtrans: 0.5;
+
+@mixin linx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    text-decoration: none;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;   
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@mixin content-padding {
+    max-width: 960px;
+    margin: 3%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+@mixin line-spacing ($space) {
+    margin-top: $space;
+    margin-bottom: $space;
+}
+
+h1 {
+    color: #CC9900;
+    text-align: center;
+    font-family: "A028";
+    font-size: 4em;
+    @include line-spacing(10px);
+}
+
+h2 {
+    color: #CC9900;
+    text-align: center;
+    font-family: "A028";
+    font-size: 2.5em;
+    @include line-spacing(10px);
+}
+
+h3 {
+    text-align: center;
+    font-family: "A028";
+    font-size: 2em;
+    @include line-spacing(10px);
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+    @include line-spacing(10px);
+}
+
+.wrapper {
+    @include content-padding;
+    background: rgba(34,34,34,0.75);
+    z-index: 100; 
+}
+
+.wrapper-container {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden; 
+} 
+
+.wrapper-bg {
+    background-image: url("background.jpg");
+    background-size: 100vw;
+    background-position: center +25%;
+    @include content-padding;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 99;
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+    overflow: hidden;
+} 
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+}
+
+footer {
+    height: 5vw;
+}
+
+.footer-quote {
+    font-family:"A028";
+    font-size: 1em;
+    color: orange;
+}
+
+.body-text {
+    flex: 6;
+}
+
+.bottom-menu {
+    font-family: "A028";
+    font-size: 0.8em;
+    text-align: center;
+    @include linx(#333,#333,#333,#333);
+}
