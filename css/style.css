@@ -25,6 +25,7 @@ h3 {
   margin-bottom: 10px; }
 
 p {
+  color: #dddddd;
   text-align: center;
   font-size: 1em;
   margin-top: 10px;
@@ -53,7 +54,7 @@ p {
   z-index: 99;
   -webkit-filter: blur(4px);
   filter: blur(4px);
-  overflow: hidden; }
+  overflow: hidd, en; }
 
 body {
   margin: 0;

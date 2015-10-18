@@ -1,0 +1,129 @@
+{
+   "recipelist":[
+      {
+         "recipe":{
+            "name":"Sausage Tomato Bowties",
+            "ingredients":[
+               {
+                  "name":"Farfalle",
+                  "quantity":1,
+                  "unit":"pounds"
+               },
+               {
+                  "name":"Sweet Italian Sausage",
+                  "quantity":1,
+                  "unit":"pounds"
+               },
+               {
+                  "name":"Olive Oil",
+                  "quantity":2,
+                  "unit":"tablespoons"
+               },
+               {
+                  "name":"Red Pepper Flakes",
+                  "quantity":0.5,
+                  "unit":"teaspoons"
+               },
+               {
+                  "name":"Onion",
+                  "quantity":0.5,
+                  "unit":"each"
+               },
+               {
+                  "name":"Minced Garlic",
+                  "quantity":2,
+                  "unit":"tablespoons"
+               },
+               {
+                  "name":"Italian Herb Diced Tomatoes, canned",
+                  "quantity":2,
+                  "unit":"cans"
+               },
+               {
+                  "name":"Heavy Cream",
+                  "quantity":1.5,
+                  "unit":"cups"
+               },
+               {
+                  "name":"Dried Parsley",
+                  "quantity":1,
+                  "unit":"sprinkles"
+               },
+               {
+                  "name":"Salt",
+                  "quantity":4,
+                  "unit":"sprinkles"
+               }
+            ],
+            "equipment":[
+               {
+                  "pans":[
+                     {
+                        "type":"deep saucepan",
+                        "size":"10+ inches",
+                        "quantity":1
+                     },
+                     {
+                        "type":"pasta pot",
+                        "size":"6 quart",
+                        "quantity":1
+                     },
+                     {
+                        "type":"mixing bowl",
+                        "size":"extra large",
+                        "quantity":1
+                     }
+                  ],
+                  "utensils":[
+                     {
+                        "type":"cutting board",
+                        "quantity":1
+                     },
+                     {
+                        "type":"vegetable knife",
+                        "quantity":1
+                     }
+                  ],
+                  "dishes":[
+                     {
+                        "type":"bowl",
+                        "quantity":2
+                     }
+                  ]
+               }
+            ],
+            "steps":{
+               "prep":[
+                  [
+                     "Dice onion",
+                     "In pasta pot, boil water with splash of oil",
+                     "Drain tomatoes"
+                  ]
+               ],
+               "cook":[
+                  [
+                     "Heat oil in large saucepan",
+                     "Add garlic and pepper flakes",
+                     "Sautee until fragrant",
+                     "Add sausage to pan. Separate into small chunks as it cooks, stirring to break up.",
+                     "When sausage is browned, add heavy cream, tomatoes, generous amount of salt to pan.",
+                     "Bring sauce to boil, stirring often. Once boiled, reduce to medium low and simmer until ready."
+                  ],
+                  [
+                     "Cook pasta as usual.",
+                     "When pasta is done, drain and add to mixing bowl."
+                  ]
+               ],
+               "plating":[
+                  [
+                     "When sauce is to desired thickness and pasta is cooked:",
+                     "Pour sauce over pasta in mixing bowl.",
+                     "Toss vigorously. Wait for sauce to thicken slightly, tossing often to mix.",
+                     "When ready, serve in bowls. Sprinkle with parsley."
+                  ]
+               ]
+            }
+         }
+      }
+   ]
+}

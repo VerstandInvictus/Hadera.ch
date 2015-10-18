@@ -57,6 +57,7 @@ h3 {
 }
 
 p {
+    color: #dddddd;
     text-align: center;
     font-size: 1em;
     @include line-spacing(10px);
@@ -87,7 +88,8 @@ p {
     z-index: 99;
     -webkit-filter: blur(4px);
     filter: blur(4px);
-    overflow: hidden;
+    overflow: hidd,
+    en;
 } 
 
 body {

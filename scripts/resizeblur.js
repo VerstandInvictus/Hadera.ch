@@ -25,3 +25,7 @@ function fitblur () {
 $(window).resize(function () {
     fitblur();
 })
+
+$(document).ready(function () {
+    fitblur();
+})
