@@ -54,7 +54,7 @@ p {
   z-index: 99;
   -webkit-filter: blur(4px);
   filter: blur(4px);
-  overflow: hidd, en; }
+  overflow: hidden; }
 
 body {
   margin: 0;
