@@ -1,13 +1,17 @@
-function addParaToRecipe(content) {
-    $("div.body-text").append("<p>" + content + "</p>");
+function addIngToRecipe(content) {
+    $("div.body-text").append(
+        [
+        "<p>",
+        content.quantity,
+        content.unit,
+        content.name,
+        "</p>"
+        ].join(" "))
 }
 
 $.getJSON('scripts/recipes.json', function(data) {         
     console.log(data);
     data.recipelist[0].recipe.ingredients.forEach(function (obj){
-        Object.keys(obj).forEach(function(prop) {
-            addParaToRecipe(obj[prop])
-            console.log(prop)
+        addIngToRecipe(obj)
         })
   });
-});
